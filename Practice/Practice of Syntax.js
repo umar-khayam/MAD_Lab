@@ -23,7 +23,7 @@ Deep copy point to the new location same as value type
 console.log(num())
 */
 
-   
+
 /*function Student(name, regno, uni) {
     this.name = name;
     this.regno = regno;
@@ -91,3 +91,13 @@ console.log(arr.reduce(fun))
 function fun(total, num){
     return total+num
 }*/
+
+//Rest operator used for allowing user to give desired paramater we don't need to initilize every paramater we provide to function
+/*function fun(...args) {
+    console.log(args)
+}
+fun(1, 2, 3, 4,5)*/
+
+arr1 = [1, 2, 3, 4, 5]
+arr2 = [6, 7, 8, 9, 10]
+console.log(...arr1, ...arr2)

@@ -18,4 +18,4 @@ function sanwich_calculator(bread,cheese){
         }
     }
 }
-sanwich_calculator(10,15)
+sanwich_calculator(5,4)
