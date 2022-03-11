@@ -1,4 +1,4 @@
-class Student{
+/*class Student{
     constructor (Name){
         this.Name=Name;
         this.gpa;
@@ -26,4 +26,5 @@ obj.Gpa=3;
 // var a=obj.Details();
 let {Name,Gpa,Percentage}=obj.Details;
 console.log(Name,Gpa, Percentage);
-// console.log(a);
+console.log(a); */
+
