@@ -12,17 +12,16 @@ import {
 } from 'react-native';
 
 export default function App() {
-  const [name,setName]=useState('Umar')
-  const [session,setSession]=useState('6')
+  const [count,setCounter]=useState(0)
   const click=()=>{
-    setName('Khayam')
-    setSession(9)
+    setCounter(count+1)
   }
+  
   return (
     <View style={styles.body}>
-      <Text style={styles.Text}>{name}</Text>
-      <Text style={styles.Text}>{session}</Text>
+      <Text style={styles.Text}>{count*5}</Text>
       <Button title='Update' onPress={click}></Button>
+      <Text style={styles.Text}>You clicked {count}</Text>
     </View>
   );
 }

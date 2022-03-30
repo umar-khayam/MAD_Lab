@@ -1,0 +1,29 @@
+.top-bar {
+    display: flex;
+    height: 90px;
+}
+
+.top-bar .nav-down-1, .nav-down-2{
+    display: flex;
+    text-align: center;
+  
+}
+.nav-down-1 {
+    width: 50%;
+}
+
+.nav-down-2 {
+    justify-content: right;
+    text-align: right;
+    width: 50%;
+}
+
+.item{
+    padding: 5px;
+    
+}
+
+.item-1{
+    justify-content: center;
+    padding: 5px;
+}
