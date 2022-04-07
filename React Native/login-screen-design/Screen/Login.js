@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <View style={styles.main}>
       <View style={styles.top}>
-          <Image style={styles.image} source={require('/Users/khayam/Desktop/abc/React-Native/MAD_Lab/React Native/login-screen-design/Images/Saly-1intro-image.png')}>
+          <Image style={styles.image} source={require('/Users/khayam/Desktop/abc/Mad-Lab/MAD_Lab/React Native/login-screen-design/Images/Saly-1intro-image.png')}>
           </Image>
       </View>
       <View style={styles.center}>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         alignContent:'center',
         justifyContent: 'center',
         margin: 20,
-        marginTop:25,
+        marginTop:40,
         borderBottomLeftRadius:35,
         borderBottomRightRadius:35,
         borderTopLeftRadius:35,

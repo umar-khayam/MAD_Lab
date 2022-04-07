@@ -22,9 +22,9 @@ export default function Signup() {
       </View>
 
       <View style={{flexDirection:'row' ,justifyContent:'center'}}> 
-        <View style={styles.icon}><Image source={require('/Users/khayam/Desktop/abc/React-Native/MAD_Lab/React Native/login-screen-design/Images/Googlelogo.png')}></Image></View>
-        <View style={styles.icon}><Image source={require('/Users/khayam/Desktop/abc/React-Native/MAD_Lab/React Native/login-screen-design/Images/Facbook.png')}></Image></View>
-        <View style={styles.icon}><Image source={require('/Users/khayam/Desktop/abc/React-Native/MAD_Lab/React Native/login-screen-design/Images/Group.png')}></Image></View>
+        <View style={styles.icon}><Image source={require('/Users/khayam/Desktop/abc/Mad-Lab/MAD_Lab/React Native/login-screen-design/Images/Googlelogo.png')}></Image></View>
+        <View style={styles.icon}><Image source={require('/Users/khayam/Desktop/abc/Mad-Lab/MAD_Lab/React Native/login-screen-design/Images/Facbook.png')}></Image></View>
+        <View style={styles.icon}><Image source={require('/Users/khayam/Desktop/abc/Mad-Lab/MAD_Lab/React Native/login-screen-design/Images/Group.png')}></Image></View>
       </View>
     </View>
   )
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
       alignContent:'center',
       justifyContent: 'center',
       margin: 20,
-      marginTop:25,
+      marginTop:40,
       
   },
 
