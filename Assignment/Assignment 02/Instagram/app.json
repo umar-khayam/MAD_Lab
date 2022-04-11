@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "styles",
-    "slug": "styles",
+    "name": "Instagram",
+    "slug": "Instagram",
     "version": "1.0.0",
-    "orientation": "landscap",
+    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",

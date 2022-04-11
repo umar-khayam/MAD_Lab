@@ -1,3 +1,20 @@
+*{
+    margin-left: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navi{
+    align-items: center;
+    text-align: center;
+}
+
+
 .top-bar {
     display: flex;
     height: 90px;
@@ -26,4 +43,14 @@
 .item-1{
     justify-content: center;
     padding: 5px;
+}
+
+.navbar-static-top
+{
+width:80%;
+margin:0 auto;
+}
+.navbar-static-top .container
+{
+width:100%;
 }

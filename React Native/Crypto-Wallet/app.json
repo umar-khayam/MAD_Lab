@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "styles",
-    "slug": "styles",
+    "name": "Crypto-Wallet",
+    "slug": "Crypto-Wallet",
     "version": "1.0.0",
-    "orientation": "landscap",
+    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
